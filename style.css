@@ -1,0 +1,192 @@
+.wrapper {
+
+}
+
+.top {
+    background: radial-gradient(#868680 5%,#5a5858 60% ,#5a5858 25%);
+    padding-bottom: 20px;
+}
+
+.top .navigation {
+    padding-top: 40px;
+    color: #9a9a9a;
+}
+
+.navigation ul {
+    list-style-type: none;
+    background-color: #232121;
+    border-radius: 3px;
+    border: none;
+    width: 80%;
+    margin: 0 calc(10% - 20px / 2) 0 calc(10% - 20px / 2);
+    padding: 0 0 0 20px;
+    overflow: hidden;
+}
+
+.navigation li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 15px 0 15px;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+.navigation a:hover{
+    color: white;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.top .good-measure {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px #222;
+    padding: 10% 20% 5% 20%;
+}
+
+.good-measure h1 {
+    font-size: 28px;
+}
+
+.good-measure p {
+    font-size: 22px;
+}
+
+.good-measure button {
+    background-color: #4396bb;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 1px solid #565656;
+}
+
+.good-measure button:hover {
+    background-color: #4e839a;
+}
+
+.row {
+    padding-top: 3%;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 0px;
+}
+
+.row .block {
+    display: inline-block;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    margin: 15px;
+    width: calc((100% / 3) - 30px);
+    margin-bottom: 60px;
+}
+
+.row .block span {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #777777;
+    border-radius: 50%;
+}
+
+.block a {
+    border: 1px solid #b9aeae;
+    border-radius: 6px;
+    outline: none;
+    color: #292626;
+    padding: 10px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block a:hover {
+    color: white;
+    background-color: #7b7b7b;
+}
+
+.divider {
+    display: block;
+    height: 1px;
+    background-color: #EEEEEE;
+    width: 80%;
+    margin: 10px 10%;
+    clear: both;
+}
+
+.content {
+    width: 80%;
+    margin: 0 10%;
+    display: block;
+    min-height: 500px;
+}
+
+.content-specular {
+    clear: both;
+    width: 80%;
+    margin: 0 10%;
+    display: block;
+    min-height: 500px;
+}
+
+.content img {
+    display: inline-block;
+    float: right;
+    margin-left: 40px;
+}
+
+.content-specular img {
+    float: left;
+    margin-right: 40px;
+}
+
+.content h1{
+    font-weight: normal;
+    color: #5A5A5A;
+}
+
+.content h1 span{
+    color: #777777;
+}
+
+.content p{
+    color: #5A5A5A;
+}
+
+.footer {
+    display: inline-block;
+    width: 80%;
+    margin: 0 10% 40px 10%;
+}
+
+.footer ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a {
+    float: left;
+}
+
+.footer a::before {
+    content: " • ";
+
+}
